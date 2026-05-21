@@ -2,129 +2,158 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamales Gourmet Perú | Sabor Costeño Premium</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Tamales Peruanos Gourmet</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #FFF8E7;
+            color: #333;
+        }
+        header {
+            background: #D91023;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background: #D4AF37;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #D91023;
+            border-bottom: 2px solid #D4AF37;
+        }
+        .producto {
+            background: white;
+            border: 2px solid #D91023;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .producto img {
+            width: 100%;
+            max-width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .precio {
+            color: #D4AF37;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .mapa {
+            width: 100%;
+            height: 250px;
+            border: 0;
+            border-radius: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #D91023;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        footer {
+            background: #D91023;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+<base target="_blank">
 </head>
 <body>
 
-    <header>
-        <div class="logo-contenedor">
-            <span class="logo-icono">🫔</span> 
-            <h1>Tamales <span class="resaltado-gourmet">Gourmet Perú</span></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#catalogo">Nuestra Carta</a></li>
-                <li><a href="#guias-compra">Calidad</a></li>
-                <li><a href="#noticias">Noticias</a></li>
-                <li><a href="#personalizacion">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>🇵🇪 Tamales Peruanos Gourmet</h1>
+    <p>Sabor criollo de verdad</p>
+</header>
 
-    <main>
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menu</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-        <section id="inicio" class="hero">
-            <div class="hero-contenido">
-                <h2>Tradición Costeña Elevada a la Alta Cocina</h2>
-                <p>Descubre una experiencia gastronómica única con nuestra masa artesanal seleccionada y rellenos de autor que revolucionan el paladar peruano.</p>
-                <a href="#catalogo" class="boton-accion">Ver Nuestra Carta</a>
-            </div>
-        </section>
+<section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Tamales artesanales peruanos con recetas de la abuela. Ingredientes 100% peruanos.</p>
+</section>
 
-        <section id="catalogo" class="seccion-contenedor">
-            <h2 class="titulo-seccion">Nuestra Carta Gourmet</h2>
-            <p class="subtitulo-seccion">Maíz tierno seleccionado, batido artesanalmente y envuelto en hoja de chala.</p>
-            
-            <div class="tabla-responsiva">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Variedad Gourmet</th>
-                            <th>Descripción Culinaria</th>
-                            <th>Presentación</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="nombre-tamal">Tamal de Alcachofa</td>
-                            <td>Masa ultra suave de maíz tierno batida con crema de alcachofas premium y corazón de alcachofa confitado al aceite de oliva.</td>
-                            <td>Hoja de Chala Seleccionada</td>
-                        </tr>
-                        <tr>
-                            <td class="nombre-tamal">Tamal de Carapulcra</td>
-                            <td>Homenaje a la tradición afroperuana. Masa perfectamente infusionada con el guiso profundo de la carapulcra costeña y carne mechada.</td>
-                            <td>Hoja de Chala Criolla</td>
-                        </tr>
-                        <tr>
-                            <td class="nombre-tamal">Tamal de Langostinos</td>
-                            <td>Sofisticada masa costeña con un sutil toque aromático de ají amarillo, rellena de langostinos salteados al vino blanco.</td>
-                            <td>Hoja de Chala Marina</td>
-                        </tr>
-                        <tr>
-                            <td class="nombre-tamal">Tamal de Pollo Premium</td>
-                            <td>Pechuga de pollo deshilachada de primer nivel, sumergida en un aderezo madre a base de ají panca, aceituna botija y huevo duro.</td>
-                            <td>Hoja de Chala Tradicional</td>
-                        </tr>
-                        <tr>
-                            <td class="nombre-tamal">Tamal de Chancho Gourmet</td>
-                            <td>El rey de los desayunos costeños. Pulpa de cerdo seleccionada y braseada a baja temperatura en su propio jugo con aderezo norteño.</td>
-                            <td>Hoja de Chala Tradicional</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+<section id="menu">
+    <h2>Nuestro Menu</h2>
 
-        <section id="guias-compra" class="seccion-contenedor fondo-gris">
-            <h2 class="titulo-seccion">Garantía de Calidad e Higiene</h2>
-            <article class="tarjeta-calidad">
-                <h3>Inocuidad Alimentaria</h3>
-                <p>A diferencia del mercado informal, implementamos estrictos protocolos de bioseguridad, certificaciones sanitarias y empaques térmicos herméticos que preservan la frescura y propiedades de cada tamal sin perder humedad.</p>
-            </article>
-        </section>
+    <div class="producto">
+        <img src="images/alcachofa.jpg" alt="Tamal de Alcachofa">
+        <h3>Tamal de Alcachofa</h3>
+        <p>Alcachofa de Huancayo con queso fresco</p>
+        <p class="precio">S/ 12.00</p>
+    </div>
 
-        <section id="noticias" class="seccion-contenedor">
-            <h2 class="titulo-seccion">Blog de Innovación Culparia</h2>
-            <div class="noticias-grid">
-                <article class="noticia-item">
-                    <h3>El Maridaje Costeño Perfecto</h3>
-                    <p>Recomendamos acompañar nuestros tamales marinos o de alcachofa con un café de especialidad de origen peruano o una chicha morada de la casa infusionada artesanalmente.</p>
-                </article>
-            </div>
-        </section>
+    <div class="producto">
+        <img src="images/carapulcra.jpg" alt="Tamal de Carapulcra">
+        <h3>Tamal de Carapulcra</h3>
+        <p>Papa seca, mani y chancho adobado de Chincha</p>
+        <p class="precio">S/ 15.00</p>
+    </div>
 
-        <section id="personalizacion" class="seccion-contenedor fondo-gris">
-            <h2 class="titulo-seccion">Pedidos Especiales y Catering</h2>
-            <p class="subtitulo-seccion">Cotiza cajas personalizadas para eventos corporativos o reuniones familiares.</p>
-            
-            <form class="formulario-contacto" onsubmit="event.preventDefault(); alert('¡Cotización enviada!');">
-                <div class="grupo-control">
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" id="nombre" required placeholder="Ej. Rolly UE">
-                </div>
-                <div class="grupo-control">
-                    <label for="correo">Correo Electrónico:</label>
-                    <input type="email" id="correo" required placeholder="ejemplo@correo.com">
-                </div>
-                <div class="grupo-control">
-                    <label for="mensaje">Detalles de tu evento:</label>
-                    <textarea id="mensaje" rows="4" placeholder="¿Cuántos tamales de alcachofa o langostinos necesitas?"></textarea>
-                </div>
-                <button type="submit" class="boton-enviar">Enviar Solicitud</button>
-            </form>
-        </section>
+    <div class="producto">
+        <img src="images/pollo.jpg" alt="Tamal de Pollo">
+        <h3>Tamal de Pollo a la Brasa</h3>
+        <p>Pollo deshilachado con salsa huancaina</p>
+        <p class="precio">S/ 14.00</p>
+    </div>
+</section>
 
-    </main>
+<section id="ubicacion">
+    <h2>Ubicacion</h2>
+    <p>Calle Berlin 456, Miraflores, Lima</p>
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900!2d-77.03!3d-12.12!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA3JzEyLjAiUyA3N8KwMDEnNDguMCJX!5e0!3m2!1ses!2spe!4v1" allowfullscreen loading="lazy"></iframe>
+</section>
 
-    <footer>
-        <p>&copy; 2026 Tamales Gourmet Perú. Todos los derechos reservados.</p>
-        <p>Proyecto Universitario desarrollado para la Costa Peruana.</p>
-    </footer>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 +51 987 654 321</p>
+    <p>📧 hola@tamalesperuanos.pe</p>
+    <p>🕐 Lunes a Sabado: 9:00 - 21:00</p>
+
+    <h3>Hacer Pedido</h3>
+    <form>
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="tel" placeholder="Telefono" required>
+        <textarea placeholder="Que tamales quieres y para cuando" rows="3" required></textarea>
+        <button type="submit">Enviar Pedido</button>
+    </form>
+</section>
+
+<footer>
+    <p>🇵🇪 Tamales Peruanos Gourmet 2026</p>
+    <p>Hecho con amor y choclo</p>
+</footer>
 
 </body>
 </html>
-
-
